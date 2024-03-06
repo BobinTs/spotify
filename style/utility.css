@@ -1,0 +1,89 @@
+.border {
+  border: 2px solid red;
+  margin: 3px;
+}
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+
+.bg-black {
+  background-color: black;
+  color: white;
+}
+.bg-grey {
+  background-color: #121212;
+  color: white;
+}
+
+.invert {
+  filter: invert(1);
+}
+.rounded {
+  border-radius: 7px;
+}
+.m-1 {
+  margin: 5px;
+}
+.p-1 {
+  padding: 10px;
+}
+
+/* Style the scrollbar */
+::-webkit-scrollbar {
+  width: 12px; /* Set the width of the scrollbar */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Change color on hover */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #333; /* Set the color of the scrollbar handle */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #222; /* Set the color of the scrollbar track */
+}
+
+/* Handle on drag */
+::-webkit-scrollbar-thumb:active {
+  background-color: #444; /* Change color on drag */
+}
+
+.songslist::-webkit-scrollbar {
+  width: 6px; /* Set the width of the scrollbar */
+}
+
+.songslist::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 5px; /* Adjust border-radius as needed */
+  height: 20px; /* Set the height of the scrollbar handle */
+}
+
+.songslist::-webkit-scrollbar-track {
+  background-color: #363535;
+  border-radius: 5px; /* Adjust border-radius as needed */
+}
+
+.cardContainer::-webkit-scrollbar {
+  width: 0; /* Set the width to 0 to hide the scrollbar */
+}
+
+/* Optionally, you can hide scrollbar in Firefox */
+.cardContainer {
+  scrollbar-width: none;
+}
+.cardContainer::-webkit-scrollbar-track {
+  background-color: #363535;
+  border-radius: 5px; /* Adjust border-radius as needed */
+  margin: 2px; /* Add margin to decrease the side padding */
+}
